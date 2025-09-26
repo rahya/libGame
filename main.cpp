@@ -1,11 +1,17 @@
 
+
+#include <winsock2.h>
+
 #include <cstdlib>
 
+#include "shd/misc/log.h"
+#include "shd/misc/memory.h"
 
-#include "test/networkMessage.h"
-#include "test/networkTCP.h"
-#include "test/networkTCPMessage.h"
-#include "misc/memory.h"
+#include "shd/test/macro.h"
+#include "shd/test/networkMessage.h"
+#include "shd/test/networkTCP.h"
+#include "shd/test/networkTCPMessage.h"
+
 
 void* operator new(std::size_t n)
 {
@@ -48,10 +54,10 @@ int main() {
 
   {
 
-    test::Campaign aCampaign;
-    test::network::message::all(aCampaign);
-    test::network::tcp::all(aCampaign);
-    test::network::tcpMessage::all(aCampaign);
+    shd::test::Campaign aCampaign;
+    shd::test::network::message::all(aCampaign);
+    shd::test::network::tcp::all(aCampaign);
+    shd::test::network::tcpMessage::all(aCampaign);
   }
 
 

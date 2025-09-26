@@ -20,121 +20,121 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="source\network\message\all.h">
+    <ClInclude Include="shd\network\message\all.h">
       <Filter>Fichiers d%27en-tête</Filter>
     </ClInclude>
-    <ClInclude Include="source\network\message\error.h">
+    <ClInclude Include="shd\network\message\error.h">
       <Filter>Fichiers d%27en-tête</Filter>
     </ClInclude>
-    <ClInclude Include="source\network\message\Header.h">
+    <ClInclude Include="shd\network\message\Header.h">
       <Filter>Fichiers d%27en-tête</Filter>
     </ClInclude>
-    <ClInclude Include="source\network\message\io.h">
+    <ClInclude Include="shd\network\message\io.h">
       <Filter>Fichiers d%27en-tête</Filter>
     </ClInclude>
-    <ClInclude Include="source\network\message\Manager.h">
+    <ClInclude Include="shd\network\message\Manager.h">
       <Filter>Fichiers d%27en-tête</Filter>
     </ClInclude>
-    <ClInclude Include="source\network\tcp\Client.h">
+    <ClInclude Include="shd\network\tcp\Client.h">
       <Filter>Fichiers d%27en-tête</Filter>
     </ClInclude>
-    <ClInclude Include="source\network\tcp\error.h">
+    <ClInclude Include="shd\network\tcp\error.h">
       <Filter>Fichiers d%27en-tête</Filter>
     </ClInclude>
-    <ClInclude Include="source\network\tcp\Poll.h">
+    <ClInclude Include="shd\network\tcp\Poll.h">
       <Filter>Fichiers d%27en-tête</Filter>
     </ClInclude>
-    <ClInclude Include="source\network\tcp\Server.h">
+    <ClInclude Include="shd\network\tcp\Server.h">
       <Filter>Fichiers d%27en-tête</Filter>
     </ClInclude>
-    <ClInclude Include="source\network\tcp\Socket.h">
+    <ClInclude Include="shd\network\tcp\Socket.h">
       <Filter>Fichiers d%27en-tête</Filter>
     </ClInclude>
-    <ClInclude Include="source\game\player\Info.h">
+    <ClInclude Include="shd\game\player\Info.h">
       <Filter>Fichiers d%27en-tête</Filter>
     </ClInclude>
-    <ClInclude Include="source\game\player\Name.h">
+    <ClInclude Include="shd\game\player\Name.h">
       <Filter>Fichiers d%27en-tête</Filter>
     </ClInclude>
-    <ClInclude Include="source\math\Vector.h">
+    <ClInclude Include="shd\math\Vector.h">
       <Filter>Fichiers d%27en-tête</Filter>
     </ClInclude>
-    <ClInclude Include="source\misc\log.h">
+    <ClInclude Include="shd\misc\log.h">
       <Filter>Fichiers d%27en-tête</Filter>
     </ClInclude>
-    <ClInclude Include="source\misc\memory.h">
+    <ClInclude Include="shd\misc\memory.h">
       <Filter>Fichiers d%27en-tête</Filter>
     </ClInclude>
-    <ClInclude Include="source\misc\platform.h">
+    <ClInclude Include="shd\misc\platform.h">
       <Filter>Fichiers d%27en-tête</Filter>
     </ClInclude>
-    <ClInclude Include="source\misc\StepFixedInterval.h">
+    <ClInclude Include="shd\misc\StepFixedInterval.h">
       <Filter>Fichiers d%27en-tête</Filter>
     </ClInclude>
-    <ClInclude Include="source\misc\Threadable.h">
+    <ClInclude Include="shd\misc\Threadable.h">
       <Filter>Fichiers d%27en-tête</Filter>
     </ClInclude>
-    <ClInclude Include="source\misc\Time.h">
+    <ClInclude Include="shd\misc\Time.h">
       <Filter>Fichiers d%27en-tête</Filter>
     </ClInclude>
-    <ClInclude Include="source\lobby\Key.h">
+    <ClInclude Include="shd\lobby\Key.h">
       <Filter>Fichiers d%27en-tête</Filter>
     </ClInclude>
-    <ClInclude Include="source\game\action\def.h">
+    <ClInclude Include="shd\game\action\def.h">
       <Filter>Fichiers d%27en-tête</Filter>
     </ClInclude>
-    <ClInclude Include="source\game\action\Move.h">
+    <ClInclude Include="shd\game\action\Move.h">
       <Filter>Fichiers d%27en-tête</Filter>
     </ClInclude>
-    <ClInclude Include="source\game\action\None.h">
+    <ClInclude Include="shd\game\action\None.h">
       <Filter>Fichiers d%27en-tête</Filter>
     </ClInclude>
-    <ClInclude Include="source\game\action\Stop.h">
+    <ClInclude Include="shd\game\action\Stop.h">
       <Filter>Fichiers d%27en-tête</Filter>
     </ClInclude>
-    <ClInclude Include="source\game\action\tools.h">
+    <ClInclude Include="shd\game\action\tools.h">
       <Filter>Fichiers d%27en-tête</Filter>
     </ClInclude>
-    <ClInclude Include="source\game\player\Sheet.h">
+    <ClInclude Include="shd\game\player\Sheet.h">
       <Filter>Fichiers d%27en-tête</Filter>
     </ClInclude>
-    <ClInclude Include="source\game\map\Constraint.h">
+    <ClInclude Include="shd\game\map\Constraint.h">
       <Filter>Fichiers d%27en-tête</Filter>
     </ClInclude>
-    <ClInclude Include="source\game\map\Generator.h">
+    <ClInclude Include="shd\game\map\Generator.h">
       <Filter>Fichiers d%27en-tête</Filter>
     </ClInclude>
-    <ClInclude Include="source\game\map\Position.h">
+    <ClInclude Include="shd\game\map\Position.h">
       <Filter>Fichiers d%27en-tête</Filter>
     </ClInclude>
-    <ClInclude Include="source\game\map\Size.h">
+    <ClInclude Include="shd\game\map\Size.h">
       <Filter>Fichiers d%27en-tête</Filter>
     </ClInclude>
-    <ClInclude Include="source\game\Configuration.h">
+    <ClInclude Include="shd\game\Configuration.h">
       <Filter>Fichiers d%27en-tête</Filter>
     </ClInclude>
-    <ClInclude Include="source\game\map\Info.h">
+    <ClInclude Include="shd\game\map\Info.h">
       <Filter>Fichiers d%27en-tête</Filter>
     </ClInclude>
-    <ClInclude Include="test\networkTcp.h">
+    <ClInclude Include="shd\test\networkTcp.h">
       <Filter>Fichiers d%27en-tête</Filter>
     </ClInclude>
-    <ClInclude Include="source\test\macro.h">
+    <ClInclude Include="shd\test\macro.h">
       <Filter>Fichiers d%27en-tête</Filter>
     </ClInclude>
-    <ClInclude Include="source\network\buffer\Input.h">
+    <ClInclude Include="shd\network\buffer\Input.h">
       <Filter>Fichiers d%27en-tête</Filter>
     </ClInclude>
-    <ClInclude Include="source\network\buffer\Output.h">
+    <ClInclude Include="shd\network\buffer\Output.h">
       <Filter>Fichiers d%27en-tête</Filter>
     </ClInclude>
-    <ClInclude Include="test\networkMessage.h">
+    <ClInclude Include="shd\test\networkMessage.h">
       <Filter>Fichiers d%27en-tête</Filter>
     </ClInclude>
-    <ClInclude Include="test\networkTcpMessage.h">
+    <ClInclude Include="shd\test\networkTcpMessage.h">
       <Filter>Fichiers d%27en-tête</Filter>
     </ClInclude>
-    <ClInclude Include="test\helper\network.h">
+    <ClInclude Include="shd\test\helper\network.h">
       <Filter>Fichiers d%27en-tête</Filter>
     </ClInclude>
   </ItemGroup>
